@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ServiceOne
+namespace ServiceTwo
 {
     internal static class Program
     {
@@ -20,10 +20,10 @@ namespace ServiceOne
                 // When Service Fabric creates an instance of this service type,
                 // an instance of the class is created in this host process.
 
-                ServiceRuntime.RegisterServiceAsync("ServiceOneType",
-                    context => new ServiceOne(context)).GetAwaiter().GetResult();
+                ServiceRuntime.RegisterServiceAsync("ServiceTwoType",
+                    context => new ServiceTwo(context)).GetAwaiter().GetResult();
 
-                ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(ServiceOne).Name);
+                ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(ServiceTwo).Name);
 
                 // Prevents this host process from terminating so services keeps running. 
                 Thread.Sleep(Timeout.Infinite);
