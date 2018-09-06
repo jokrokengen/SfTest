@@ -98,7 +98,7 @@ Param
     $SecurityToken,
 
     [int]
-    $CopyPackageTimeoutSec
+    $CopyPackageTimeoutSec = 220
 )
 
 function Read-XmlElementAsHashtable

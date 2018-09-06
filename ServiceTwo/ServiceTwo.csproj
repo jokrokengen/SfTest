@@ -16,6 +16,7 @@
     <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="3.0.480" />
     <PackageReference Include="Microsoft.ServiceFabric.Data" Version="3.0.480" />
     <PackageReference Include="Microsoft.ServiceFabric.Services" Version="3.0.480" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>

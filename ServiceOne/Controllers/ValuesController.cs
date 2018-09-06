@@ -9,7 +9,10 @@ namespace ServiceOne.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        // GET api/values
+        /// <summary>
+        /// Retriev all values
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<string> Get()
         {

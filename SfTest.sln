@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SfTest", "SfTest\SfTest.sfproj", "{36D4048F-7EB7-4296-85E5-883281E8AD56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceOne", "ServiceOne\ServiceOne.csproj", "{7CF6ECBB-AB5E-44D8-A3FD-30A6A07B3130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceOne", "ServiceOne\ServiceOne.csproj", "{7CF6ECBB-AB5E-44D8-A3FD-30A6A07B3130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTwo", "ServiceTwo\ServiceTwo.csproj", "{DF1A9453-1DE1-4057-A05B-53972B7BC76C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceTwo", "ServiceTwo\ServiceTwo.csproj", "{DF1A9453-1DE1-4057-A05B-53972B7BC76C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
